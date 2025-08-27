@@ -1,0 +1,26 @@
+{
+  "name": "creativehelpers",
+  "version": "1.0.0",
+  "description": "A package of handy tools that help in creative coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfitzgibbon/creativeHelpers.git"
+  },
+  "keywords": [
+    "creative",
+    "coding",
+    "threejs",
+    "svg",
+    "canvas"
+  ],
+  "author": "David Fitzgibbon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidfitzgibbon/creativeHelpers/issues"
+  },
+  "homepage": "https://github.com/davidfitzgibbon/creativeHelpers#readme"
+}
