@@ -1,3 +1,3 @@
 import Repeater from "./Repeater"
-import svgMake from "./svgMake"
+import SvgMake from "./SvgMake"
 export {Repeater, SvgMake}
