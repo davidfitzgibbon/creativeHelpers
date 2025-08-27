@@ -11,9 +11,10 @@ export default class Repeater {
     
     this.iteration(functionToRun, this.loops);
   }
-	array (fn = null) {
+	items (fn = null) {
 		this.storeItems = true;
 		this.loop(fn)
+    return this.items
 	}
   iteration(fn, loops, values = []) {
     if(!loops.length) {
@@ -35,9 +36,9 @@ export default class Repeater {
       s = {...s,...loop}
     }
     
-    let equalityFn = this.lessThan;
-    if(s.inclusive) {
-      equalityFn = this.lessThanOrEqual
+    let equalityFn = this.lessThanOrEqual;
+    if(!s.inclusive) {
+      equalityFn = this.lessThan
     }
     
     let state = s.start
