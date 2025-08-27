@@ -1,6 +1,6 @@
 {
   "name": "creativehelpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package of handy tools that help in creative coding",
   "main": "index.js",
   "scripts": {
